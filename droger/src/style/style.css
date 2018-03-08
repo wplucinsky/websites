@@ -1,0 +1,353 @@
+body{
+	background-color: #efefef;
+}
+.playfair{
+	font-family: 'Playfair Display', serif;
+}
+.slabo{
+	font-family: 'Slabo 27px', serif;
+	font-size: 15px;
+}
+.slabo p{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+label {
+	cursor: pointer;
+}
+.mainContainer{
+	position: relative;top: 30%;
+}
+.windowSize{
+	width: 40%;margin: auto;text-align: center;
+}
+.height100{
+	height:100%;
+}
+.marginTop{
+	margin-top: 40px;
+}
+#grid{
+	margin: auto;
+}
+.item img{
+	max-width: 200px;
+	margin: 10px;
+	float: left;
+}
+
+
+/* START Nav Bar */
+.headerBar{
+	width: 100%;position: absolute;top: 0px;left: 0px;height: 50px;background-color: white;
+}
+.spanGeneral{
+	display: inline-block;margin-right: 20px;height: 100%;
+}
+.spanText{
+	position: relative;top:15px;
+}
+.navbarText{
+	width: 710px;margin: auto;
+}
+.logoHolder{
+	height: 100%;position: absolute;top: 0px;
+}
+.lastSpan{
+	margin-right: 0px;
+}
+#navToggle{
+	display: none;
+}
+.barParent{
+	position: absolute; right: 0px;top:0px;width: 65px;height: 50px;
+}
+.barHolder{
+	position: relative;width: 30px; margin: auto;margin-top:-3px;margin-right: 14px;
+}
+.firstBar{
+	width: 30px; height: 4px; background-color: black; border: 0px solid;border-radius: 3px;
+}
+.secondBar{
+	width: 30px; height: 4px; background-color: black; border: 0px solid;border-radius: 3px;position: relative;top: 4px;
+}
+.thirdBar{
+	width: 30px; height: 4px; background-color: black; border: 0px solid;border-radius: 3px;position: relative;top: 8px;
+}
+#menuToggle{
+	display: none;
+}
+/* END Nav Bar */
+
+
+/* START Header */
+.subBox{
+	position: relative;top: -20px;
+}
+.separatorBarSlimLeft{
+	width: 35%;background-color: black;height: 2px;position: relative;top: 15px;float: left;
+}
+.subTitle{
+	width: 112px;margin: auto;position: relative;top: 0px;font-style: italic;
+}
+.separatorBarSlimRight{
+	width: 34%;background-color: black;height: 2px;float: right;position: relative;top: -15px;
+}
+/* END Header */
+
+
+/* START Education */
+.education{
+	width: 521px; height: 50px;margin-top: 30px;margin-bottom: 30px;margin: auto;
+}
+.firstSchool{
+	height: 18px;margin-top: 30px;margin-bottom: 12px;font-size: 16px;margin: auto;width: 92%;text-align: left;min-width: 580px;
+}
+.firstSchoolName{
+	width:37%;float: left;
+}
+.firstSchoolBullet{
+	width: 5px;height: 5px;background-color: black;margin: auto;position: relative;top: 7px;left: -74px;
+}
+.firstSchoolTown{
+	width: 31%;position: relative;top: -5px;float: left;margin-left: 10px;
+}
+.firstSchoolBulletTwo{
+	width: 5px;height: 5px;background-color: black;margin: auto;position: relative;top: 2px;left: 117px;
+}
+.firstSchoolDegree{
+	width: 20%;position: relative;top: -10px;float: left;text-align: right;
+}
+.secondSchool{
+	height: 18px;margin-top: 30px;margin-bottom: 12px;font-size: 16px;margin: auto;width: 92%;text-align: left;min-width: 580px;
+}
+.secondSchoolName{
+	width:22%;float: left;
+}
+.secondSchoolBullet{
+	width: 5px;height: 5px;background-color: black;margin: auto;position: relative;top: 19px;left: -159px;
+}
+.secondSchoolTown{
+	width: 25%;position: relative;top: 1px;float: left;margin-left: 10px;
+}
+.secondSchoolBulletTwo{
+	width: 5px;height: 5px;background-color: black;margin: auto;position: relative;top: 14px;left: -6px;
+}
+.secondSchoolDegree{
+	width: 41%;position: relative;top: 1px;float: left;text-align: right;
+}
+/* END Education */
+
+
+/* START Address Box */
+.addressBox{
+	width: 280px;margin: auto;
+}
+.addressStreet{
+	width: 140px;float: left;
+}
+.addressCity{
+	width: 120px;float: right;
+}
+.addressBullet{
+	width: 5px;height: 5px;background-color: black;margin: auto;position: relative;top: 37px;left:8px;
+}
+/* END Address Box */
+
+/* START Experience */
+.experience{
+	width: 521px;margin-top: 30px;margin-bottom: 30px;margin: auto;
+}
+.collage{
+	width: 880px;margin-top: 30px;margin-bottom: 30px;margin: auto;
+}
+.collageLink{
+	color: blue;
+}
+#grid{
+	margin: auto;
+}
+/* END Experience */
+
+
+/* START Address Box */
+.addressBox{
+	width: 280px;margin: auto;
+}
+.addressStreet{
+	width: 140px;float: left;
+}
+.addressCity{
+	width: 120px;float: right;
+}
+.addressBullet{
+	width: 5px;height: 5px;background-color: black;margin: auto;position: relative;top: 37px;left:8px;
+}
+/* END Address Box */
+
+/* START Separator Bar */
+.separatorBar{
+	position: relative;top: 4px;height: 0px;width: 308px; margin: auto;
+}
+.leftBox{
+	width: 19px;height: 19px;background-color: black;position: relative;top: 43px;left: 0px;border: 0px solid;border-top-left-radius: 6px;
+}
+.leftWhiteBox{
+	width: 5px;height: 6px;background-color: #efefef;position: relative;top: 56px;left: 14px;z-index: 100;
+}
+.topBar{
+	width: 284px;height: 1px;background-color: black;position: relative;top: 26px;left: 9px;
+}
+.topBarSub{
+	width: 262px;height: 1px;background-color: black;position: relative;top: 28px;left: 23px;
+}
+.midBar{
+	width: 272px;height: 2px;background-color: black;position: relative;top: 31px;left: 17px;
+}
+.bottomBarSub{
+	width: 262px;height: 1px;background-color: black;position: relative;top: 34px;left: 23px;
+}
+.bottomBar{
+	width: 284px;height: 1px;background-color: black;position: relative;top: 36px;left: 9px;
+}
+.rightBox{
+	width: 19px;height: 19px;background-color: black;position: relative;top: 18px;left: 0px;border: 0px solid;border-top-right-radius: 6px;float: right;
+}
+.rightWhiteBox{
+	width: 5px;height: 6px;background-color: #efefef;position: relative;top: 25px;left: 288px;z-index: 100;
+}
+/* END Separator Bar */
+
+/* START Contact Box */
+.contactBox{
+	width: 250px;;margin: auto;position: relative;top: 5px;height: 0px;
+}
+.contactPhone{
+	width: 88px;float: left;position: relative;top: 20px;
+}
+.contactEmail{
+	width: 136px;float: right;position: relative;top: 19px; margin-bottom: 40px;
+}
+.contactBullet{
+	width: 5px;height: 5px;background-color: black;position: relative;top: 71px;left: 98px;
+}
+/* END Contact Box */
+
+/* START Viewbox Size */
+@media screen and (max-width:950px){
+	.windowSize{
+		width: 80%;	
+	}
+}
+
+@media screen and (max-width:900px){
+	.collage{
+		width: 80%;	
+	}
+}
+
+@media screen and (max-width:740px){
+	#navToggle{
+		display: block;
+	}
+	.spanGeneral{
+		display: block;margin-bottom: 10px;text-align: right;height: 50%;
+	}
+	.lastSpan{
+		margin-right: 20px;margin-bottom: 20px;
+	}
+	.navbarText{
+		width: 220px;margin-top: 50px;float: right;background-color: white;position: relative;z-index: 1000;
+	}
+	.firstSpan{
+		margin-top:20px;
+	}
+	#menu{
+		display: none;
+	}
+	.spanText{
+		top:0px;
+	}
+}
+
+@media screen and (max-width:540px){
+	.experience{
+		width: 100%;
+	}
+	.firstSchoolTown{
+		width: 68%;margin-left: 0px;top: 0px;
+	}
+	.firstSchoolBullet{
+		display: none;
+	}
+	.firstSchoolBulletTwo{
+		display: none;
+	}
+	.secondSchoolTown{
+		width: 65%; margin-left:0px;
+	}
+	.secondSchoolBullet{
+		display: none;
+	}
+	.secondSchoolBulletTwo{
+		display: none;
+	}
+	.education{
+		width: 340px; height: 145px;
+	}
+	.firstSchool{
+		min-width: inherit;width: 100%;height: 85px;
+	}
+	.firstSchoolName{
+		width: 68%;
+	}
+	.firstSchoolDegree{
+		width: 34%;text-align: left;top: 0px;
+	}
+	.secondSchool{
+		min-width: inherit; width: 100%;height: 65px;
+	}
+	.secondSchoolName{
+		width: 38%;
+	}
+	.secondSchoolDegree{
+		width: 72%;text-align: left;
+	}
+}
+
+@media screen and (max-width:500px){
+	.separatorBarSlimLeft {
+		width: 30%;
+	}
+	.separatorBarSlimRight{
+		width: 30%;
+	}
+	.noPadding{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:380px){
+	.separatorBarSlimLeft {
+		width: 20%;
+	}
+	.separatorBarSlimRight{
+		width: 20%;
+	}
+}
+@media screen and (max-width:245px){
+	.separatorBarSlimLeft {
+		display: none;
+	}
+	.separatorBarSlimRight{
+		display: none;
+	}
+}
+
+#menuToggle:checked + #menu {
+	display: block !important;
+}
+/* END Viewbox Size */
