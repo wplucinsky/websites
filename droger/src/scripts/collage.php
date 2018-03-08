@@ -125,7 +125,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Douglas C. Roger - Image Resizer</title>
+	<title>Douglas C. Roger - Image Uploader</title>
 	<link rel="icon" type="image/png" href="/src/icons/logo-min.png">
 	<meta name="description" content="Resize Images to 200px Width"/>
 	<meta name="keywords" content="">
@@ -337,7 +337,7 @@
 		}
 		?>
 		<div class="windowSize">
-			<form action="imageResize.php" method="post" enctype="multipart/form-data">
+			<form action="collage.php" method="post" enctype="multipart/form-data">
 				<div class="box">
 					<input type="file" id="file" name="file[]" accept="image/*" multiple>
 					<input type="submit" id="submit">
