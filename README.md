@@ -23,4 +23,4 @@ CREATE TABLE `collage` (
 ```
 - navigate to `src/scripts/collage.php` to upload JPEG and PNG images
 
-* PHP code will not execute on `rawgit.com`
+\* PHP code will not execute on `rawgit.com`
